@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+<!-- 경계선에 대한 css border-->
+/* table, th, td {
+  border: 1px solid black;
+ 
+}
+ */
+/* 패딩은 4가지 인자를 받으면  top->right->bottm->left 순  */
+/* 2가지 인자를 받으면 x,y   top,bottm은 x , left, right는 y */ 
+
+table {
+  border: 1px solid black;
+  
+}
+
+th {
+border-width: 1px;
+border-style: dotted;
+border-color: red;
+
+/* boderd: 1px dotted red;  한번에도 쓸 수 있음*/
+
+  border: 1px solid black;
+  /* background-color: red; */
+  border-radius: 10px;
+}
+td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>Table With Border</h2>
+
+<p>Use the CSS border property to add a border to the table.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
