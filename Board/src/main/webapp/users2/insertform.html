@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User insert form</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 100px;
+        }
+        input {
+            margin-bottom: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        등록 임시 화면
+    </h1>
+    <div>
+        <form action="insert.jsp" method="get">
+            <label for="userid">
+                아이디:
+            </label>
+            <input type="text" id="userid" name="userid"><br>
+            <label for="userpassword">
+                비밀번호:
+            </label>
+            <input type="text" id="userpassword" name="userpassword"><br>
+            <label for="userpassword2">
+                비밀번호확인:
+            </label>
+            <input type="text" id="userpassword2" name="userpassword2"><br>
+            <label for="username">
+                이름 :
+            </label>
+            <input type="text" id="username" name="username"><br>
+            <label for="userage">
+                나이 : 
+            </label>
+            <input type="text" id="userage" name="userage"><br>
+            <label for="useremail">
+                이메일:
+            </label>
+            <input type="text" id="useremail" name="useremail"><br>
+<!--             
+            <label for="male">남성
+                <input type="radio" id="male" name="gender" value="male">
+            </label>
+            <label for="female">여성
+                <input type="radio" id="female" name="gender" value="female">
+            </label><br>
+ -->            
+            <input type="submit" value="등록">
+        </form>
+    </div>
+</body>
+</html>
